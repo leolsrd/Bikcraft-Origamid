@@ -1,3 +1,4 @@
+// Ativar links menu
 const links = document.querySelectorAll(".header-menu a");
 
 function ativarLInk(link) {
@@ -10,3 +11,16 @@ function ativarLInk(link) {
 }
 
 links.forEach(ativarLInk);
+
+// Ativar Itens do Orçamento (Prata e Ouro)
+
+const parametros = new URLSearchParams(location.search);
+
+function ativarParametro(parametro) {
+  const elemento = document.getElementById(parametro);
+  if (elemento) {
+    elemento.checked = true;
+  }
+}
+
+parametros.forEach(ativarParametro);
