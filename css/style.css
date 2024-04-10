@@ -6,6 +6,9 @@
 /* Cores */
 @import url("./utilidades/cores.css");
 
+/* Animação Plugin CSS */
+@import url("./utilidades/animacao.css");
+
 /* Header */
 @import url("./global/header.css");
 
