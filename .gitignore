@@ -1,0 +1,4 @@
+commands.md
+
+Minificar arquivo css
+cleancss -o ./css/style.min.css ./css/sytle.css --with-rebase
